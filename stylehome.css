@@ -1,0 +1,312 @@
+.backgroundimage
+{
+    background-image: url(static/pattern.png);
+    background-size: 1000px;
+    background-color: gray;
+}
+
+.bookcover
+{
+    
+    background-color: lightyellow;
+        top:100px;
+        left:400px;
+        width:1000px;
+        height:800px;
+        
+    
+        position: relative;
+    
+        border-radius: 2%;
+    
+    
+}
+
+.bookinside
+{
+    background-color: lightgray;
+    border: 2px solid gray;
+
+    top:10px;
+    left:10px;
+    right: 10px;
+    bottom: 10px;
+
+    
+
+    position: absolute;
+    display: flex;
+    
+
+    border-radius: 2%;
+}
+
+.container
+{
+   
+    flex: 1;
+    
+    border-radius: 2%;
+    margin-top: 50px;
+
+    
+    display: flex;
+   
+
+}
+
+.container2
+{
+   
+    flex: 1;
+    
+    border-radius: 2%;
+    margin-top: 50px;
+
+    
+    display: flex;
+    overflow: scroll;
+   
+
+}
+.profilecontainer
+{
+    
+    flex: 0.7;
+    
+    border-radius: 2%;
+    margin-top: 50px;
+
+    
+    display: flex;
+}
+
+.newscontainer
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 100px;
+    
+
+
+}
+
+.picturecontainer
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    margin-top: 200px;
+    overflow:  hidden;
+}
+
+.imagecontainer
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.imagebox
+{
+    
+    width: 400px;
+    height: 600px;
+}
+
+.diarycontainer
+{
+    
+    
+    flex-direction: column;
+    
+}
+
+
+
+
+.diarycontainer_box
+{
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 400px;
+    height: 200px;
+    
+}
+
+.diarycontainer> a
+{
+    
+    background-color: white;
+    border: 1px solid white;
+    color: white;
+    font-family: "NeoDunggeunmo";
+    font-size: 30px;
+
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.diarycontainer> a:hover
+{
+    background-color: white;
+    background-color: green;
+    border: 1px solid gray;
+}
+
+
+
+.menucontainer
+{
+    
+    flex: 0.4;
+     
+
+    margin-top: 60px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menucontainer > a
+{
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 50px;
+    background-color: lightseagreen;
+    border-bottom-right-radius: 2px; /* 우측 하단 border-radius 적용 */
+    border-top-right-radius: 2px; /* 우측 상단 border-radius 적용 */
+    border: 1px solid #617dc1;
+    color: white;
+    text-decoration: none;
+    font-family: "NeoDunggeunmo";
+    font-size: 0.85rem;
+}
+
+/* 메뉴용 */
+.menucontainer > a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.menucontainer > a:active{
+    background-color: red;
+    color: white;
+}
+
+.menucontainer > a:focus{
+    background-color: yellow;
+}
+
+.profile_pic
+{
+    display: flex;
+
+    flex: 1;
+   
+
+    align-content: center;
+    justify-content: center;
+
+}
+
+.profile_text
+{
+    display: flex;
+    flex: 1;
+    margin-top: 5%;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.profile_dropdown
+{
+    display: flex;
+    flex: 1;
+    margin-top: 10%;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.dropdown{ /*드랍다운 설정*/
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownbtn{ /*드랍다운 버튼 세팅*/
+    background-color: #ea2129;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 2px;
+}
+
+.dropdowncontent{ /*드랍다운 내용 세팅*/
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdowncontent a{ /*드랍다운 내용 세팅2*/
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+
+.dropdown:hover .dropdowncontent 
+{
+    background-color: #ddd;
+    display: block;
+}
+
+.background-1
+{
+    background-image: url("./pattern.png");
+}
+
+
+
+.container_title
+{
+    display: flex;
+    flex: 1;
+    margin-top: 5%;
+    margin-left: 5%;
+
+    align-content: center;
+    justify-content: flex-start;
+    
+
+    border-bottom: 2px solid grey;
+}
+
+
+.column3{
+    flex: 0.25;
+    margin: 10px;
+
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.secretmessage
+{
+    display: none;
+
+}
+
+
+
+

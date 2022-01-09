@@ -1,0 +1,33 @@
+.column1
+{
+    flex: 1;    
+    margin: 10px;
+
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.line
+{
+    border-bottom: 2px solid grey;
+}
+
+.row1
+{
+    flex:1;
+   
+    border: 2px solid darkgrey;
+}
+
+.itembox
+{
+    background-color: white;
+}
+
+.menubox
+{
+    background-color: lightskyblue;
+
+   
+}
